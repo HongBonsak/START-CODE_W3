@@ -1,0 +1,98 @@
+{
+    // =========================================================
+    // AI — GLOBAL DISABLE
+    // =========================================================
+
+    // VS Code 1.136+
+    // Disables/hides built-in AI features and disables Copilot.
+    "chat.disableAIFeatures": false,
+
+    // =========================================================
+    // GITHUB COPILOT
+    // =========================================================
+
+    "github.copilot.enable": false,
+    "github.copilot.inlineSuggest.enable": false,
+
+    // =========================================================
+    // CHAT / AGENTS
+    // =========================================================
+
+    "chat.agent.enabled": false,
+    "chat.agent.maxRequests": 0,
+
+    "chat.commandCenter.enabled": false,
+    "chat.viewTitle.enabled": false,
+    "chat.viewWelcome.enabled": false,
+
+    "chat.allowAnonymousAccess": false,
+
+    "chat.mcp.access": "none",
+    "chat.mcp.autostart": "never",
+    "chat.mcp.gallery.enabled": false,
+
+    "inlineChat.enableV2": false,
+    "inlineChat.affordance": "off",
+
+    // =========================================================
+    // TELEMETRY
+    // =========================================================
+
+    "telemetry.telemetryLevel": "off",
+    "telemetry.editStats.details.enabled": false,
+    "telemetry.editStats.showDecorations": false,
+    "telemetry.feedback.enabled": false,
+
+    // =========================================================
+    // UPDATES
+    // =========================================================
+
+    "update.mode": "manual",
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": "off",
+
+    // =========================================================
+    // TERMINAL
+    // =========================================================
+
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.initialHint": false,
+
+    // =========================================================
+    // SECURITY
+    // =========================================================
+
+    "security.workspace.trust.enabled": true,
+    "security.promptForLocalFileProtocolHandling": true,
+
+    // =========================================================
+    // THIRD-PARTY AI EXTENSIONS
+    // =========================================================
+
+    "claude-code.enable": false,
+
+    "continue.enableTabAutocomplete": false,
+    "continue.telemetryEnabled": false,
+
+    "codeium.enableConfig": {
+        "*": false
+    },
+
+    "tabnine.disable_filetypes": [
+        "*"
+    ],
+
+    "supermaven.enable": false,
+
+    "fauxpilot.enabled": false,
+}
